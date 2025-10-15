@@ -5,7 +5,9 @@ choice = int(input("Choose an option:\n1. Generate Patterns \n2. Analyze Numbers
 if choice == 1:
     print("Pattern:")
     for i in range(1, 6):
-        print("* " * i)
+        for j in range(i):
+            print("*", end="")
+        print()
 elif choice == 2:
     start = int(input("Enter the starting number: "))
     end = int(input("Enter the ending number: "))
