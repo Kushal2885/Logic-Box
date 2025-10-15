@@ -21,3 +21,5 @@ elif choice == 2:
     print("Sum of all numbers from", start, "to", end, "is:", sum)
 elif choice == 3:
         print("Exiting the program. Goodbye!")
+else:
+    print("Invalid choice. Please select a valid option.")
